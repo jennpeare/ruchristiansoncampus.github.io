@@ -1,0 +1,256 @@
+/*****************************
+  GENERAL
+******************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 80px;
+}
+
+p {
+  font-size: 1.125em;
+}
+
+a {
+  /*color: #2cc3a8;*/
+}
+
+a:hover {
+  /*color: #21937f;*/
+  text-decoration: none;
+}
+
+a span[class^="flaticon-"] {
+  /*color: #000;*/
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+small {
+  font-size: 1em;
+}
+
+
+/*****************************
+  SECTIONS
+******************************/
+
+.wrapper {
+  padding: 0;
+  width: 100%;
+}
+
+.section {
+  padding: 50px 53px;
+  margin: 0;
+}
+
+.section-header {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.section-sub {
+  display: block;
+  text-align: center;
+  font-family: 'Waiting for the Sunrise', cursive;
+  margin-bottom: 50px;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+/*****************************
+  COLOR SCHEME
+******************************/
+
+.red-font {
+  color: #be0000;
+}
+
+.red-bg {
+  background-color: #be0000;
+}
+
+.orange-bg {
+  background-color: #f09609;
+}
+
+.green-bg {
+  background-color: #339933;
+}
+
+.cyan-bg {
+  background-color: #00aba9;
+}
+
+/*****************************
+  NAVBAR
+******************************/
+
+.navbar {
+  border: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  height: 80px;
+  padding: 10px;
+}
+
+.navbar-brand img {
+  display: inline-block;
+  width: 120px;
+  margin-top: 3px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-size: 1.25em;
+  line-height: 50px;
+  -o-transition: .1s ease-in-out;
+  -ms-transition: .1s ease-in-out;
+  -moz-transition: .1s ease-in-out;
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+}
+
+.navbar-nav li a:hover, .current-page {
+  box-shadow: inset 0px 5px 0px 0px;
+}
+
+/*****************************
+  JUMBOTRON
+******************************/
+
+.tint-wrapper {
+  height: 400px;
+  background-color: rgba(0, 0, 0, .45);
+  padding: 30px 0;
+}
+
+#welcome {
+  height: 400px;
+  background: url('../img/group.jpg') no-repeat fixed bottom center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#welcome div {
+  display: block;
+}
+
+#welcome h1 {
+  font-size: 5em;
+  text-shadow: 1px 1px 10px #000;
+  margin-bottom: 35px;
+  font-weight: 400;
+}
+
+#welcome p {
+  text-shadow: 1px 1px 20px #000;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 2em;
+  margin-bottom: 35px;
+}
+
+#welcome span:hover {
+  cursor: pointer;
+}
+
+/*****************************
+  ACTIVITIES
+******************************/
+
+#activities h2 {
+  text-align: center;
+}
+
+#activities dt {
+  font-weight: 400;
+  text-align: left;
+  width: 80px;
+}
+
+#activities dd {
+  margin-left: 0;
+}
+
+.activities-icons {
+  color: #fff;
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100px;
+}
+
+/*****************************
+  CONTACT
+******************************/
+
+#contact {
+  color: #fff;
+}
+
+#contact-methods {
+  line-height: 2em;
+}
+
+.contact-icons {
+  border: 2px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+  height: 25px;
+  margin-right: 10px;
+  position: relative;
+  text-align: center;
+  top: 4px;
+  width: 25px;
+}
+
+
+
+/*****************************
+  FOOTER
+******************************/
+
+footer {
+  background-color: #000;
+  /*margin-top: 30px;*/
+  padding: 15px 53px;
+  margin: 0;
+  color: #fff;
+}
+
+footer p {
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+}

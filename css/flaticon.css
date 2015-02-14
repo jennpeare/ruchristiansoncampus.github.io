@@ -1,0 +1,90 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+	font-family: Flaticon;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+
+/*****************************
+	JUMBOTRON
+******************************/
+.flaticon-down139:before {
+	content: "\e001";
+	font-size: 3.5em;
+	position: relative;
+}
+
+/*****************************
+	ACTIVITIES
+******************************/
+.flaticon-house4:before {
+	content: "\e004";
+	font-size: 3.5em;
+	position: relative;
+	top: 15px;
+}
+
+.flaticon-book13:before {
+	content: "\e000";
+	font-size: 3.5em;
+	position: relative;
+	top: 15px;
+	left: 3px;
+}
+
+.flaticon-road24:before {
+	content: "\e009";
+	font-size: 4em;
+	position: relative;
+	top: 10px;
+}
+
+/*****************************
+	CONTACT
+******************************/
+.flaticon-pin71:before {
+	content: "\e007";
+	font-size: .75em;
+	position: relative;
+	top: -4px;
+}
+
+.flaticon-phone8:before {
+	content: "\e006";
+	font-size: .75em;
+	position: relative;
+	top: -4px;
+}
+
+.flaticon-email122:before {
+	content: "\e002";
+	font-size: .75em;
+	position: relative;
+	top: -5px;
+}
+
+/*****************************
+	SOCIAL MEDIA
+******************************/
+.flaticon-facebook3:before {
+	content: "\e003";
+}
+
+.flaticon-instagram13:before {
+	content: "\e005";
+}
+
+.flaticon-play125:before {
+	content: "\e008";
+}

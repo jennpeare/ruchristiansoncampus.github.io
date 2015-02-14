@@ -1,0 +1,118 @@
+@media screen and (max-width: 991px) {
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+  /*****************************
+    GENERAL
+  ******************************/
+
+  body {
+    padding-top: 50px;
+  }
+
+  /*****************************
+    NAVBAR
+  ******************************/
+
+  .navbar {
+
+  }
+
+  .navbar-brand {
+    height: 50px;
+    padding: 5px;
+  }
+
+  .navbar-brand img {
+    width: 80px;
+    margin-top: 2px;
+  }
+
+  /* format hamburger menu */
+  #nav-left {
+    margin-bottom: 0;
+  }
+
+  .navbar-nav li a {
+    line-height: 20px;
+    font-size: 1em;
+    padding-left: 20px;
+  }
+
+  .navbar-nav li:hover {
+    background-color: #ddd;
+  }
+
+  .navbar-nav li a:hover {
+    box-shadow: none;
+  }
+
+  /*****************************
+  FOOTER
+  ******************************/
+
+  #copyright {
+    text-align: center;
+  }
+
+  #copyright p {
+    line-height: 1.2em;
+  }
+
+  .icons {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 567px) {
+
+  /*****************************
+  GENERAL
+  ******************************/
+
+  h2 {
+    font-size: 1.125em;
+    padding: 9px 7px;
+  }
+
+  h2:before {
+    border-top-width: 18px;
+    border-right-width: 12px;
+    border-bottom-width: 18px;
+  }
+
+  h2:after {
+    border-top-width: 18px;
+    border-left-width: 12px;
+    border-bottom-width: 18px;
+  }
+
+  /*****************************
+  HOME
+  ******************************/
+
+  #home-header {
+    font-size: 1.65em;
+  }
+
+  /*****************************
+  MEMBERS
+  ******************************/
+
+  .members img {
+    max-width: 130px;
+    margin: 5px;
+  }
+
+  /*****************************
+  GALLERY
+  ******************************/
+
+  .thumb {
+    width: 130px;
+    height: 130px;
+  }
+}
