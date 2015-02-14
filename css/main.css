@@ -235,8 +235,6 @@ small {
   width: 25px;
 }
 
-
-
 /*****************************
   FOOTER
 ******************************/
@@ -250,7 +248,7 @@ footer {
 }
 
 footer p {
-  font-size: 1em;
+  font-size: .85em;
   margin: 0;
   text-align: center;
 }
