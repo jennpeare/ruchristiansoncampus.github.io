@@ -61,7 +61,7 @@ small {
 }
 
 .section {
-  padding: 50px 53px;
+  padding: 50px 68px;
   margin: 0;
 }
 
@@ -78,7 +78,7 @@ small {
   margin-bottom: 50px;
 }
 
-.bold {
+strong {
   font-weight: 400;
 }
 
@@ -100,6 +100,10 @@ small {
 
 .green-bg {
   background-color: #339933;
+}
+
+.blue-bg {
+  background-color: #1ba1e2;
 }
 
 .cyan-bg {
@@ -179,8 +183,13 @@ small {
   margin-bottom: 35px;
 }
 
+#welcome span {
+  color: #fff;
+}
+
 #welcome span:hover {
   cursor: pointer;
+  text-decoration: none;
 }
 
 /*****************************
@@ -208,6 +217,42 @@ small {
   margin: 0 auto;
   text-align: center;
   width: 100px;
+}
+
+/*****************************
+  MEDIA
+******************************/
+
+#media {
+  color: #fff;
+}
+
+#media .modal-dialog {
+  width: 75%;
+}
+
+#media .row {
+  text-align: center;
+}
+
+#media .modal-title {
+  color: #000;
+  text-align: center;
+}
+
+.video-thumb {
+  width: 250px;
+}
+
+.video-thumb:hover {
+  cursor: zoom-in;
+}
+
+/*****************************
+  WHO WE ARE
+******************************/
+#about-us {
+
 }
 
 /*****************************
