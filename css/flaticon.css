@@ -14,6 +14,7 @@
 	font-style: normal;
 	margin: 0;
 	padding: 0;
+	-webkit-font-smoothing: antialiased;
 }
 
 /*****************************
@@ -54,14 +55,14 @@
 	CONTACT
 ******************************/
 .flaticon-pin71:before {
-	content: "\e007";
+	content: "\e008";
 	font-size: .75em;
 	position: relative;
 	top: -4px;
 }
 
 .flaticon-phone8:before {
-	content: "\e006";
+	content: "\e007";
 	font-size: .75em;
 	position: relative;
 	top: -4px;
@@ -77,14 +78,20 @@
 /*****************************
 	SOCIAL MEDIA
 ******************************/
-.flaticon-facebook3:before {
+.flaticon-facebook55:before {
 	content: "\e003";
+	position: relative;
+	top: 4px;
 }
 
-.flaticon-instagram13:before {
+.flaticon-30:before {
 	content: "\e005";
+	position: relative;
+	top: 4px;
 }
 
-.flaticon-play125:before {
-	content: "\e008";
+.flaticon-logo4:before {
+	content: "\e006";
+	position: relative;
+	top: 4px;
 }

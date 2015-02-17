@@ -1,5 +1,5 @@
 /*****************************
-  GENERAL
+GENERAL
 ******************************/
 
 body {
@@ -52,7 +52,7 @@ small {
 
 
 /*****************************
-  SECTIONS
+SECTIONS
 ******************************/
 
 .wrapper {
@@ -83,7 +83,7 @@ strong {
 }
 
 /*****************************
-  COLOR SCHEME
+COLOR SCHEME
 ******************************/
 
 .red-font {
@@ -111,7 +111,7 @@ strong {
 }
 
 /*****************************
-  NAVBAR
+NAVBAR
 ******************************/
 
 .navbar {
@@ -146,7 +146,7 @@ strong {
 }
 
 /*****************************
-  JUMBOTRON
+JUMBOTRON
 ******************************/
 
 .tint-wrapper {
@@ -193,7 +193,7 @@ strong {
 }
 
 /*****************************
-  ACTIVITIES
+ACTIVITIES
 ******************************/
 
 #activities h2 {
@@ -220,7 +220,7 @@ strong {
 }
 
 /*****************************
-  MEDIA
+MEDIA
 ******************************/
 
 #media {
@@ -249,14 +249,14 @@ strong {
 }
 
 /*****************************
-  WHO WE ARE
+WHO WE ARE
 ******************************/
 #about-us {
 
 }
 
 /*****************************
-  CONTACT
+CONTACT
 ******************************/
 
 #contact {
@@ -286,12 +286,11 @@ strong {
   border: none;
 }
 /*****************************
-  FOOTER
+FOOTER
 ******************************/
 
 footer {
   background-color: #000;
-  /*margin-top: 30px;*/
   padding: 15px 53px;
   margin: 0;
   color: #fff;
@@ -301,4 +300,90 @@ footer p {
   font-size: .85em;
   margin: 0;
   text-align: center;
+}
+
+.social-icons {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.social {
+  border: 2px solid #333;
+  background-color: #000;
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  margin: 0 5px;
+  -o-transition: .2s ease;
+  -ms-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  width: 40px;
+}
+
+.social:hover {
+  -webkit-animation-duration: .7s;
+  -webkit-animation-name: wiggle;
+  -webkit-animation-fill-mode: both;
+  animation-duration: .7s;
+  animation-name: wiggle;
+  animation-fill-mode: both;
+}
+
+/* facebook */
+.flaticon-facebook55:hover {
+  border-color: #3b5999;
+  background-color: #3b5999;
+}
+
+/* instagram */
+.flaticon-logo4:hover {
+  border-color: #bb0000;
+  background-color: #bb0000;
+}
+
+/* youtube */
+.flaticon-30:hover {
+  border-color: #517fa4;
+  background-color: #517fa4;
+}
+
+/* wiggle animation */
+@keyframes wiggle {
+  0%,100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0)
+  }
+  20%,60% {
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg)
+  }
+  40%,80% {
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg)
+  }
+}
+
+@-webkit-keyframes wiggle {
+  0%,100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0)
+  }
+  20%,60% {
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg)
+  }
+  40%,80% {
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg)
+  }
 }
