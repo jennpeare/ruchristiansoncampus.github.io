@@ -2,11 +2,17 @@
 GENERAL
 ******************************/
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 14px;
+  height: 100%;
   padding-top: 80px;
+  padding-bottom: 100px;
 }
 
 p {
@@ -20,10 +26,6 @@ a {
 a:hover {
   /*color: #21937f;*/
   text-decoration: none;
-}
-
-a span[class^="flaticon-"] {
-  /*color: #000;*/
 }
 
 h1 {
@@ -141,8 +143,9 @@ NAVBAR
   transition: .1s ease-in-out;
 }
 
-.navbar-nav li a:hover, .current-page {
+.navbar-nav li a:hover, .current {
   box-shadow: inset 0px 5px 0px 0px;
+  color: #fff !important;
 }
 
 /*****************************
@@ -289,11 +292,18 @@ CONTACT
 FOOTER
 ******************************/
 
+.push {
+  background-color: transparent;
+  height: 100px;
+  width: 100%;
+}
+
 footer {
   background-color: #000;
-  padding: 15px 53px;
-  margin: 0;
   color: #fff;
+  margin: 0;
+  padding: 15px 53px;
+  width: 100%;
 }
 
 footer p {
