@@ -17,10 +17,6 @@
     NAVBAR
   ******************************/
 
-  .navbar {
-
-  }
-
   .navbar-brand {
     height: 50px;
     padding: 5px;
@@ -32,10 +28,6 @@
   }
 
   /* format hamburger menu */
-  #nav-left {
-    margin-bottom: 0;
-  }
-
   .navbar-nav li a {
     line-height: 20px;
     font-size: 1em;
@@ -43,76 +35,44 @@
   }
 
   .navbar-nav li:hover {
-    background-color: #ddd;
+    background-color: #333;
   }
 
   .navbar-nav li a:hover {
     box-shadow: none;
   }
 
-  /*****************************
-  FOOTER
-  ******************************/
-
-  #copyright {
-    text-align: center;
+  .current {
+    border-left: 5px solid #fff;
+    box-shadow: none;
   }
 
-  #copyright p {
-    line-height: 1.2em;
+  .current a {
+    padding-left: 15px !important;
   }
 
-  .icons {
-    text-align: center;
-  }
 }
 
 @media screen and (max-width: 567px) {
 
   /*****************************
-  GENERAL
+  TESTIMONIES
   ******************************/
 
-  h2 {
-    font-size: 1.125em;
-    padding: 9px 7px;
+  .testimony-pic {
+    display: table-row;
   }
 
-  h2:before {
-    border-top-width: 18px;
-    border-right-width: 12px;
-    border-bottom-width: 18px;
+  .testimony-pic img {
+    margin: 0 0 20px;
   }
 
-  h2:after {
-    border-top-width: 18px;
-    border-left-width: 12px;
-    border-bottom-width: 18px;
+  .testimony-content {
+    display: table-row;
   }
 
-  /*****************************
-  HOME
-  ******************************/
-
-  #home-header {
-    font-size: 1.65em;
+  .testimony-content h4 {
+    text-align: center;
   }
 
-  /*****************************
-  MEMBERS
-  ******************************/
-
-  .members img {
-    max-width: 130px;
-    margin: 5px;
-  }
-
-  /*****************************
-  GALLERY
-  ******************************/
-
-  .thumb {
-    width: 130px;
-    height: 130px;
-  }
 }

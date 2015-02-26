@@ -175,15 +175,15 @@ JUMBOTRON
 #welcome h1 {
   font-size: 5em;
   text-shadow: 1px 1px 10px #000;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   font-weight: 400;
 }
 
 #welcome p {
   text-shadow: 1px 1px 20px #000;
   font-family: 'Waiting for the Sunrise', cursive;
-  font-size: 2em;
-  margin-bottom: 35px;
+  font-size: 1.75em;
+  margin-bottom: 40px;
 }
 
 #welcome span {
@@ -193,6 +193,16 @@ JUMBOTRON
 #welcome span:hover {
   cursor: pointer;
   text-decoration: none;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: .3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: bounce;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-duration: .3s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
 }
 
 /*****************************
@@ -256,6 +266,35 @@ WHO WE ARE
 ******************************/
 #about-us {
 
+}
+
+/*****************************
+TESTIMONIES
+******************************/
+
+.testimony-block {
+  display: table;
+  margin-bottom: 40px;
+}
+
+.testimony-pic {
+  display: table-cell;
+  text-align: center;
+}
+
+.testimony-pic img {
+  border-radius: 100%;
+  width: 120px;
+  margin: 0 20px 0 0;
+}
+
+.testimony-content {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.testimony-content h4 {
+  margin-top: 0;
 }
 
 /*****************************
@@ -330,11 +369,11 @@ footer p {
 
 .social:hover {
   -webkit-animation-duration: .7s;
-  -webkit-animation-name: wiggle;
   -webkit-animation-fill-mode: both;
+  -webkit-animation-name: wiggle;
   animation-duration: .7s;
-  animation-name: wiggle;
   animation-fill-mode: both;
+  animation-name: wiggle;
 }
 
 /* facebook */
@@ -354,6 +393,38 @@ footer p {
   border-color: #517fa4;
   background-color: #517fa4;
 }
+
+/*****************************
+ANIMATION KEYFRAMES
+******************************/
+
+/* bounce animation */
+@keyframes bounce {
+  from {
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  to {
+    -webkit-transform: translate(0px, -10px);
+    -ms-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  to {
+    -webkit-transform: translate(0px, -10px);
+    -ms-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+  }
+}
+
 
 /* wiggle animation */
 @keyframes wiggle {
