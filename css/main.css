@@ -152,20 +152,23 @@ NAVBAR
 JUMBOTRON
 ******************************/
 
+.jumbotron {
+  background: url('../img/group.jpg');
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  height: 400px;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+}
+
 .tint-wrapper {
   height: 400px;
   background-color: rgba(0, 0, 0, .45);
   padding: 30px 0;
-}
-
-#welcome {
-  height: 400px;
-  background: url('../img/group.jpg') no-repeat fixed bottom center;
-  background-size: cover;
-  color: #fff;
-  text-align: center;
-  padding: 0;
-  margin-bottom: 0;
 }
 
 #welcome div {
@@ -186,11 +189,12 @@ JUMBOTRON
   margin-bottom: 40px;
 }
 
-#welcome span {
+#welcome .flaticon-down139 {
   color: #fff;
+  font-size: 3.5em;
 }
 
-#welcome span:hover {
+#welcome .flaticon-down139:hover {
   cursor: pointer;
   text-decoration: none;
   -webkit-animation-delay: 0s;
@@ -238,6 +242,7 @@ MEDIA
 
 #media {
   color: #fff;
+  text-align: center;
 }
 
 #media .modal-dialog {
@@ -254,7 +259,9 @@ MEDIA
 }
 
 .video-thumb {
+  display: inline-block;
   width: 250px;
+  margin: 15px;
 }
 
 .video-thumb:hover {
@@ -329,6 +336,7 @@ CONTACT
   height: 400px;
   border: none;
 }
+
 /*****************************
 FOOTER
 ******************************/
