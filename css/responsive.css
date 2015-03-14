@@ -28,6 +28,34 @@
   #welcome p {
     font-size: 1.5em;
   }
+
+  /*****************************
+  ACTIVITIES
+  ******************************/
+
+  #activities h3 {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .activity-content {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 25px;
+  }
+
+  .activities-icons {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  /*****************************
+  WHO WE ARE
+  ******************************/
+
+  #about-us img {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -38,6 +66,26 @@
 
   body {
     padding-top: 50px;
+    font-size: 13px;
+  }
+
+  /*****************************
+  SECTIONS
+  ******************************/
+
+  .section {
+    padding: 35px;
+    margin: 0;
+  }
+
+  .section-header {
+    font-size: 3em;
+    margin-top: 0;
+  }
+
+  .section-sub {
+    font-size: 1.25em;
+    margin-bottom: 20px;
   }
 
   /*****************************
@@ -91,12 +139,11 @@
 
   #welcome h1 {
     font-size: 3.25em;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   #welcome p {
-    font-size: 1.25em;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   #welcome .flaticon-down139 {
@@ -119,11 +166,27 @@
   }
 
   #welcome h1 {
-    font-size: 2em;
+    font-size: 2.25em;
+    margin-bottom: 15px;
   }
 
   #welcome p {
-    font-size: 1em;
+    font-size: 1.25em;
+    margin-bottom: 15px;
+  }
+
+  /*****************************
+  ACTIVITIES
+  ******************************/
+
+  .activities-icons {
+    width: 10px;
+  }
+
+  .flaticon-house4:before,
+  .flaticon-book13:before,
+  .flaticon-road24:before {
+    display: none;
   }
 
   /*****************************
