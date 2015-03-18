@@ -6,6 +6,14 @@
   #welcome h1 {
     font-size: 4.5em;
   }
+
+  /*****************************
+  MEDIA
+  ******************************/
+
+  .media-wrapper {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -61,7 +69,7 @@
 @media screen and (max-width: 767px) {
 
   /*****************************
-    GENERAL
+  GENERAL
   ******************************/
 
   body {
@@ -89,7 +97,7 @@
   }
 
   /*****************************
-    NAVBAR
+  NAVBAR
   ******************************/
 
   .navbar-brand {
@@ -146,7 +154,7 @@
     margin-bottom: 25px;
   }
 
-  #welcome .flaticon-down139 {
+  #down {
     font-size: 2.5em;
   }
 

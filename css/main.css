@@ -60,7 +60,6 @@ small {
   font-size: 1em;
 }
 
-
 /*****************************
 SECTIONS
 ******************************/
@@ -201,12 +200,13 @@ JUMBOTRON
   margin-bottom: 40px;
 }
 
-#welcome .flaticon-down139 {
+#down {
   color: #fff;
   font-size: 3.5em;
+  position: relative;
 }
 
-#welcome .flaticon-down139:hover {
+#down:hover {
   cursor: pointer;
   text-decoration: none;
   -webkit-animation-delay: 0s;
@@ -259,28 +259,10 @@ MEDIA
   text-align: center;
 }
 
-#media .modal-dialog {
-  width: 75%;
+.media-wrapper {
+  padding: 0 45px;
 }
 
-#media .row {
-  text-align: center;
-}
-
-#media .modal-title {
-  color: #000;
-  text-align: center;
-}
-
-.video-thumb {
-  display: inline-block;
-  width: 250px;
-  margin: 15px;
-}
-
-.video-thumb:hover {
-  cursor: zoom-in;
-}
 
 /*****************************
 WHO WE ARE
