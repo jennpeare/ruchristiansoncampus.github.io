@@ -263,6 +263,12 @@ MEDIA
   padding: 0 45px;
 }
 
+/*****************************
+LIFE STUDY
+******************************/
+#ls-exodus a {
+  border-bottom: none;
+}
 
 /*****************************
 WHO WE ARE
