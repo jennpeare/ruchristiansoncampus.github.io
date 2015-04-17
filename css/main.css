@@ -15,6 +15,13 @@ body {
   padding-bottom: 100px;
 }
 
+#content-wrapper {
+  min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+
 p {
   font-size: 1.125em;
 }
@@ -25,6 +32,7 @@ a {
   border-bottom: 1px dotted;
 }
 
+a:focus,
 a:hover {
   color: #fabec9;
   text-decoration: none;
@@ -72,6 +80,7 @@ SECTIONS
 .section {
   padding: 50px 68px;
   margin: 0;
+  height: 100%;
 }
 
 .section-header {
@@ -154,7 +163,9 @@ NAVBAR
   transition: .1s ease-in-out;
 }
 
-.navbar-nav li a:hover, .current {
+.navbar-nav li a:focus,
+.navbar-nav li a:hover,
+.current {
   box-shadow: inset 0px 5px 0px 0px;
   color: #fff !important;
 }
@@ -206,6 +217,7 @@ JUMBOTRON
   position: relative;
 }
 
+#down:focus,
 #down:hover {
   cursor: pointer;
   text-decoration: none;
@@ -255,7 +267,6 @@ MEDIA
 ******************************/
 
 #media {
-  color: #fff;
   text-align: center;
 }
 
@@ -268,6 +279,11 @@ LIFE STUDY
 ******************************/
 #ls-exodus a {
   border-bottom: none;
+}
+
+#ls-exodus table {
+  width: 70%;
+  margin: 0 auto;
 }
 
 /*****************************
@@ -347,11 +363,16 @@ CONTACT
 /*****************************
 FOOTER
 ******************************/
+.push {
+  background: transparent;
+  height: 100px;
+}
 
 footer {
   background-color: #000;
   color: #fff;
   margin: 0;
+  height: 100px;
   padding: 15px 53px;
   width: 100%;
 }
@@ -388,6 +409,7 @@ footer p {
   width: 40px;
 }
 
+.social:focus,
 .social:hover {
   -webkit-animation-duration: .7s;
   -webkit-animation-fill-mode: both;
@@ -398,18 +420,21 @@ footer p {
 }
 
 /* facebook */
+.flaticon-facebook55:focus,
 .flaticon-facebook55:hover {
   border-color: #3b5999;
   background-color: #3b5999;
 }
 
 /* instagram */
+.flaticon-logo4:focus,
 .flaticon-logo4:hover {
   border-color: #bb0000;
   background-color: #bb0000;
 }
 
 /* youtube */
+.flaticon-30:focus,
 .flaticon-30:hover {
   border-color: #517fa4;
   background-color: #517fa4;

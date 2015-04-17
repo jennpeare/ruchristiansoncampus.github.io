@@ -466,6 +466,18 @@
       text: 'http://www.rucoc.com/LifeStudy/Eng/2/76/76.pdf'
     },
     {
+      num: 77,
+      title: 'The Enactment of the Covenant (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/77/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/77/77.pdf'
+    },
+    {
+      num: 78,
+      title: 'The Blood of the Covenant (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/78/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/78/78.pdf'
+    },
+    {
       num: 79,
       title: 'The Blood of the Covenant (2)',
       audio: 'http://www.rucoc.com/LifeStudy/Eng/2/79/hifias1s.mp3',
@@ -836,7 +848,276 @@
       title: 'The Sanctification of Aaron and His Sons to be the Priests (8)',
       audio: 'http://www.rucoc.com/LifeStudy/Eng/2/140/hifias1s.mp3',
       text: 'http://www.rucoc.com/LifeStudy/Eng/2/140/140.pdf'
+    },
+    {
+      num: 141,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (9)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/141/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/141/141.pdf'
+    },
+    {
+      num: 142,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (10)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/142/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/142/142.pdf'
+    },
+    {
+      num: 143,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (11)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/143/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/143/143.pdf'
+    },
+    {
+      num: 144,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (12)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/144/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/144/144.pdf'
+    },
+    {
+      num: 145,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (13)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/145/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/145/145.pdf'
+    },
+    {
+      num: 146,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (14)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/146/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/146/146.pdf'
+    },
+    {
+      num: 147,
+      title: 'The Golden Incense Altar (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/147/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/147/147.pdf'
+    },
+    {
+      num: 148,
+      title: 'The Golden Incense Altar (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/148/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/148/148.pdf'
+    },
+    {
+      num: 149,
+      title: 'The Golden Incense Altar (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/149/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/149/149.pdf'
+    },
+    {
+      num: 150,
+      title: 'The Golden Incense Altar (4)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/150/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/150/150.pdf'
+    },
+    {
+      num: 151,
+      title: 'The Golden Incense Altar (5)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/151/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/151/151.pdf'
+    },
+    {
+      num: 152,
+      title: 'The Golden Incense Altar (6)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/152/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/152/152.pdf'
+    },
+    {
+      num: 153,
+      title: 'The Propitiation Silver (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/153/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/153/153.pdf'
+    },
+    {
+      num: 154,
+      title: 'The Propitiation Silver (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/154/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/154/154.pdf'
+    },
+    {
+      num: 155,
+      title: 'The Propitiation Silver (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/155/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/155/155.pdf'
+    },
+    {
+      num: 156,
+      title: 'The Laver of Bronze',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/156/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/156/156.pdf'
+    },
+    {
+      num: 157,
+      title: 'The Holy Anointing Oil (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/157/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/157/157.pdf'
+    },
+    {
+      num: 158,
+      title: 'The Holy Anointing Oil (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/158/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/158/158.pdf'
+    },
+    {
+      num: 159,
+      title: 'The Holy Anointing Oil (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/159/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/159/159.pdf'
+    },
+    {
+      num: 160,
+      title: 'The Compound Ointment of the Compound Spirit (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/160/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/160/160.pdf'
+    },
+    {
+      num: 161,
+      title: 'The Compound Ointment of the Compound Spirit (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/161/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/161/161.pdf'
+    },
+    {
+      num: 162,
+      title: 'The Compound Ointment of the Compound Spirit (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/162/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/162/162.pdf'
+    },
+    {
+      num: 163,
+      title: 'The Ingredients of the Compound Spirit Typified by the Compound Ointment (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/163/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/163/163.pdf'
+    },
+    {
+      num: 164,
+      title: 'The Ingredients of the Compound Spirit Typified by the Compound Ointment (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/164/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/164/164.pdf'
+    },
+    {
+      num: 165,
+      title: 'The Ingredients of the Compound Spirit Typified by the Compound Ointment (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/165/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/165/165.pdf'
+    },
+    {
+      num: 166,
+      title: 'The Ingredients of the Compound Spirit Typified by the Compound Ointment (4)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/166/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/166/166.pdf'
+    },
+    {
+      num: 167,
+      title: 'The Incense (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/167/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/167/167.pdf'
+    },
+    {
+      num: 168,
+      title: 'The Incense (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/168/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/168/168.pdf'
+    },
+    {
+      num: 169,
+      title: 'The Incense (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/169/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/169/169.pdf'
+    },
+    {
+      num: 170,
+      title: 'The Workers of the Tabernacle, the Furniture, and the Priestly Garment (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/170/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/170/170.pdf'
+    },
+    {
+      num: 171,
+      title: 'The Workers of the Tabernacle, the Furniture, and the Priestly Garment (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/171/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/171/171.pdf'
+    },
+    {
+      num: 172,
+      title: 'The Sabbath in Relation to the Building Work of the Tabernacle',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/172/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/172/172.pdf'
+    },
+    {
+      num: 173,
+      title: 'The Breaking of the Law',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/173/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/173/173.pdf'
+    },
+    {
+      num: 174,
+      title: 'The Principle of the Golden-Calf Idol',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/174/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/174/174.pdf'
+    },
+    {
+      num: 175,
+      title: 'The Dealing with the Idol and the Idolaters',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/175/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/175/175.pdf'
+    },
+    {
+      num: 176,
+      title: 'A Companion of God (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/176/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/176/176.pdf'
+    },
+    {
+      num: 177,
+      title: 'A Companion of God (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/177/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/177/177.pdf'
+    },
+    {
+      num: 178,
+      title: 'Moses\' Stay with God (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/178/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/178/178.pdf'
+    },
+    {
+      num: 179,
+      title: 'Moses\' Stay with God (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/179/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/179/179.pdf'
+    },
+    {
+      num: 180,
+      title: 'Moses\' Stay with God (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/180/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/180/180.pdf'
+    },
+    {
+      num: 181,
+      title: 'Moses\' Stay with God (4)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/181/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/181/181.pdf'
+    },
+    {
+      num: 182,
+      title: 'The Making of the Tabernacle with Its Furniture and the Garments for the Priests (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/182/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/182/182.pdf'
+    },
+    {
+      num: 183,
+      title: 'The Making of the Tabernacle with Its Furniture and the Garments for the Priests (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/183/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/183/183.pdf'
+    },
+    {
+      num: 184,
+      title: 'The Erection of the Tabernacle (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/184/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/184/184.pdf'
+    },
+    {
+      num: 185,
+      title: 'The Erection of the Tabernacle (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/185/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/185/185.pdf'
     }
-
   ];
 })();
