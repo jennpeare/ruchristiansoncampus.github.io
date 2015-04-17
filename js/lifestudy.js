@@ -428,12 +428,415 @@
       title: 'The Implications, Indications, and Significances of the Ordinances of the Law (1)',
       audio: 'http://www.rucoc.com/LifeStudy/Eng/2/70/hifias1s.mp3',
       text: 'http://www.rucoc.com/LifeStudy/Eng/2/70/70.pdf'
+    },
+    {
+      num: 71,
+      title: 'The Implications, Indications, and Significances of the Ordinances of the Law (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/71/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/71/71.pdf'
+    },
+    {
+      num: 72,
+      title: 'The Implications, Indications, and Significances of the Ordinances of the Law (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/72/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/72/72.pdf'
+    },
+    {
+      num: 73,
+      title: 'The Angel of Jehovah for His People to Take Possession of the Promised Land (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/73/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/73/73.pdf'
+    },
+    {
+      num: 74,
+      title: 'The Angel of Jehovah for His People to Take Possession of the Promised Land (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/74/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/74/74.pdf'
+    },
+    {
+      num: 75,
+      title: 'The Angel of Jehovah for His People to Take Possession of the Promised Land (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/75/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/75/75.pdf'
+    },
+    {
+      num: 76,
+      title: 'The Enactment of the Covenant (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/76/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/76/76.pdf'
+    },
+    {
+      num: 79,
+      title: 'The Blood of the Covenant (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/79/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/79/79.pdf'
+    },
+    {
+      num: 80,
+      title: 'The Vision of God in a Transparent and Clear Heaven and the Stay with God Under His Glory',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/80/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/80/80.pdf'
+    },
+    {
+      num: 81,
+      title: 'The Vision of the Tabernacle and Its Furniture Concerning the Materials and the Pattern (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/81/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/81/81.pdf'
+    },
+    {
+      num: 82,
+      title: 'The Vision of the Tabernacle and Its Furniture Concerning the Materials and the Pattern (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/82/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/82/82.pdf'
+    },
+    {
+      num: 83,
+      title: 'The Vision of the Tabernacle and Its Furniture Concerning the Materials and the Pattern (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/83/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/83/83.pdf'
+    },
+    {
+      num: 84,
+      title: 'The Ark of the Testimony (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/84/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/84/84.pdf'
+    },
+    {
+      num: 85,
+      title: 'The Ark of the Testimony (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/85/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/85/85.pdf'
+    },
+    {
+      num: 86,
+      title: 'The Ark of the Testimony (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/86/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/86/86.pdf'
+    },
+    {
+      num: 87,
+      title: 'The Ark of the Testimony (4)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/87/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/87/87.pdf'
+    },
+    {
+      num: 88,
+      title: 'The Ark of the Testimony (5)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/88/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/88/88.pdf'
+    },
+    {
+      num: 89,
+      title: 'The Ark of the Testimony (6)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/89/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/89/89.pdf'
+    },
+    {
+      num: 90,
+      title: 'The Table of the Bread of the Presence (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/90/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/90/90.pdf'
+    },
+    {
+      num: 91,
+      title: 'The Table of the Bread of the Presence (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/91/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/91/91.pdf'
+    },
+    {
+      num: 92,
+      title: 'The Lampstand (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/92/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/92/92.pdf'
+    },
+    {
+      num: 93,
+      title: 'The Lampstand (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/93/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/93/93.pdf'
+    },
+    {
+      num: 94,
+      title: 'The Lampstand (3) - Growing, Branching, Budding, and Blossoming to Shine the Light',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/94/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/94/94.pdf'
+    },
+    {
+      num: 95,
+      title: 'The Covering of the Tabernacle (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/95/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/95/95.pdf'
+    },
+    {
+      num: 96,
+      title: 'The Covering of the Tabernacle (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/96/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/96/96.pdf'
+    },
+    {
+      num: 97,
+      title: 'The Boards of the Tabernacle (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/97/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/97/97.pdf'
+    },
+    {
+      num: 98,
+      title: 'The Boards of the Tabernacle (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/98/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/98/98.pdf'
+    },
+    {
+      num: 99,
+      title: 'The Veil Within the Tabernacle (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/99/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/99/99.pdf'
+    },
+    {
+      num: 100,
+      title: 'The Veil Within the Tabernacle (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/100/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/100/100.pdf'
+    },
+    {
+      num: 101,
+      title: 'The Curtain for the Door of the Tent (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/101/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/101/101.pdf'
+    },
+    {
+      num: 102,
+      title: 'The Curtain for the Door of the Tent (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/102/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/102/102.pdf'
+    },
+    {
+      num: 103,
+      title: 'The Curtain for the Door of the Tent (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/103/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/103/103.pdf'
+    },
+    {
+      num: 104,
+      title: 'The Altar of Burnt Offering (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/104/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/104/104.pdf'
+    },
+    {
+      num: 105,
+      title: 'The Altar of Burnt Offering (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/105/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/105/105.pdf'
+    },
+    {
+      num: 106,
+      title: 'The Altar of Burnt Offering (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/106/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/106/106.pdf'
+    },
+    {
+      num: 107,
+      title: 'The Altar of Burnt Offering (4)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/107/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/107/107.pdf'
+    },
+    {
+      num: 108,
+      title: 'The Altar of Burnt Offering (5)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/108/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/108/108.pdf'
+    },
+    {
+      num: 109,
+      title: 'The Altar of Burnt Offering (6)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/109/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/109/109.pdf'
+    },
+    {
+      num: 110,
+      title: 'The Court of the Tabernacle (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/110/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/110/110.pdf'
+    },
+    {
+      num: 111,
+      title: 'The Court of the Tabernacle (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/111/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/111/111.pdf'
+    },
+    {
+      num: 112,
+      title: 'The Court of the Tabernacle (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/112/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/112/112.pdf'
+    },
+    {
+      num: 113,
+      title: 'The Court of the Tabernacle (4)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/113/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/113/113.pdf'
+    },
+    {
+      num: 114,
+      title: 'The Lighting of the Lamps and the Garments for the Priesthood (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/114/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/114/114.pdf'
+    },
+    {
+      num: 115,
+      title: 'The Lighting of the Lamps and the Garments for the Priesthood (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/115/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/115/115.pdf'
+    },
+    {
+      num: 116,
+      title: 'The Priestly Garments (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/116/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/116/116.pdf'
+    },
+    {
+      num: 117,
+      title: 'The Priestly Garments (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/117/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/117/117.pdf'
+    },
+    {
+      num: 118,
+      title: 'The Priestly Garments (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/118/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/118/118.pdf'
+    },
+    {
+      num: 119,
+      title: 'The Priestly Garments (4)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/119/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/119/119.pdf'
+    },
+    {
+      num: 120,
+      title: 'The Priestly Garments (5)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/120/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/120/120.pdf'
+    },
+    {
+      num: 121,
+      title: 'The Priestly Garments (6)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/121/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/121/121.pdf'
+    },
+    {
+      num: 122,
+      title: 'The Priestly Garments (7)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/122/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/122/122.pdf'
+    },
+    {
+      num: 123,
+      title: 'The Priestly Garments (8)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/123/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/123/123.pdf'
+    },
+    {
+      num: 124,
+      title: 'The Priestly Garments (9)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/124/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/124/124.pdf'
+    },
+    {
+      num: 125,
+      title: 'The Priestly Garments (10)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/125/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/125/125.pdf'
+    },
+    {
+      num: 126,
+      title: 'The Priestly Garments (11)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/126/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/126/126.pdf'
+    },
+    {
+      num: 127,
+      title: 'The Priestly Garments (12)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/127/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/127/127.pdf'
+    },
+    {
+      num: 128,
+      title: 'The Priestly Garments (13)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/128/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/128/128.pdf'
+    },
+    {
+      num: 129,
+      title: 'The Priestly Garments (14)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/129/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/129/129.pdf'
+    },
+    {
+      num: 130,
+      title: 'The Priestly Garments (15)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/130/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/130/130.pdf'
+    },
+    {
+      num: 131,
+      title: 'The Priestly Garments (16)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/131/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/131/131.pdf'
+    },
+    {
+      num: 132,
+      title: 'The Priestly Garments (17)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/132/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/132/132.pdf'
+    },
+    {
+      num: 133,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (1)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/133/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/133/133.pdf'
+    },
+    {
+      num: 134,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (2)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/134/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/134/134.pdf'
+    },
+    {
+      num: 135,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (3)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/135/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/135/135.pdf'
+    },
+    {
+      num: 136,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (4)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/136/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/136/136.pdf'
+    },
+    {
+      num: 137,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (5)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/137/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/137/137.pdf'
+    },
+    {
+      num: 138,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (6)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/138/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/138/138.pdf'
+    },
+    {
+      num: 139,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (7)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/139/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/139/139.pdf'
+    },
+    {
+      num: 140,
+      title: 'The Sanctification of Aaron and His Sons to be the Priests (8)',
+      audio: 'http://www.rucoc.com/LifeStudy/Eng/2/140/hifias1s.mp3',
+      text: 'http://www.rucoc.com/LifeStudy/Eng/2/140/140.pdf'
     }
-
-
-
-
-
 
   ];
 })();
