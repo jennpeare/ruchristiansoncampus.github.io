@@ -19,7 +19,7 @@ body {
   min-height: 100%;
 	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
 	height: 100%;
-	margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+	margin: 0 auto -120px; /* the bottom margin is the negative value of the footer's height */
 }
 
 p {
@@ -365,28 +365,28 @@ FOOTER
 ******************************/
 .push {
   background: transparent;
-  height: 100px;
+  height: 120px;
 }
 
 footer {
   background-color: #000;
   color: #fff;
+  display: table;
   margin: 0;
-  height: 100px;
+  height: 120px;
   padding: 15px 53px;
   width: 100%;
 }
 
-footer p {
-  font-size: .85em;
-  margin: 0;
-  text-align: center;
+#footer-content {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .social-icons {
   font-size: 1.5em;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .social-icons a {
@@ -438,6 +438,12 @@ footer p {
 .flaticon-30:hover {
   border-color: #517fa4;
   background-color: #517fa4;
+}
+
+footer p {
+  font-size: .85em;
+  margin: 0;
+  text-align: center;
 }
 
 /*****************************
