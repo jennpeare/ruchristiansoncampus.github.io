@@ -266,24 +266,24 @@ CAROUSEL
   font-size: 1.25em;
   letter-spacing: 3px;
   margin: 25px auto;
-  width: 200px;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
+  width: 275px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
 }
 
 .freshmen-connect-btn:hover {
   background-color: rgba(240,112,9,.6);
   border: 2px solid #fff;
   color: #fff;
-  -webkit-animation-duration: .7s;
+  /*-webkit-animation-duration: .7s;
   -webkit-animation-fill-mode: both;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-name: bounce;
   animation-duration: .7s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
-  animation-name: bounce;
+  animation-name: bounce;*/
 }
 
 /*****************************
