@@ -479,6 +479,10 @@ FRESHMEN CONNECT
   background-color: #fff;
   color: #f09609;
   letter-spacing: 5px;
+  padding: 0 10px;
+}
+
+.fc-padding {
   padding: 5px 10px;
 }
 
