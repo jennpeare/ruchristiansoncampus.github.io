@@ -494,6 +494,11 @@ FRESHMEN CONNECT
   padding-top: 3px;
 }
 
+.form {
+  width: 100%;
+  height: 800px;
+  border: none;
+}
 
 /*****************************
 FOOTER

@@ -1,3 +1,11 @@
+$(function(){
+  setTimeout(function(){
+    $('#landing').fadeOut(1000,function() {
+      window.location.href = "/en";
+    })
+  },500);
+});
+
 // Smooth scrolling
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
