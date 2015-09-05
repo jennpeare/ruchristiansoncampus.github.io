@@ -3,15 +3,32 @@ layout: default
 title: Home
 ---
 
-<!-- WELCOME -->
-<div id="welcome" class="jumbotron">
-  <div class="tint-wrapper">
-    <div class="container">
-      <h1><span class="red-font">Rutgers</span> Christians on Campus</h1>
-      <p>"But flee youthful lusts and pursue...with all those <br/>who call on the Lord out of a pure heart" &mdash; 2 Timothy 2:22</p>
-      <span id="down" class="flaticon-down139"></span>
+<!-- CAROUSEL -->
+<div id="index-carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#index-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#index-carousel" data-slide-to="1"></li>
+    <li data-target="#index-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="container" id="carousel-fc">
+        <h1><span>FRESHMEN</span></h1>
+        <h2>Connect</h2>
+        <a type="button" class="freshmen-connect-btn btn btn-default btn-lg" href="freshmen-connect">REGISTER</a>
+      </div>
     </div>
+    <div class="item"><div id="carousel-gfs"></div></div>
+    <div class="item"><div id="carousel-hc"></div></div>
   </div>
+  <a class="left carousel-control" href="#index-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#index-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
 <div class="container wrapper">
@@ -33,43 +50,36 @@ title: Home
         <span class="activities-icons green-bg flaticon-book13"></span>
         <div class="activity-content">
           <h3>Dorm Bible Studies</h3>
-          <p>This semester, we will continue to explore the topic – The Economy of God.</p><br/>
-          <p><strong>Monday</strong>: 9-10pm – LIVI</p>
-          <p><strong>Thursday</strong>: 4-5pm – BEST Hall</p>
+          <p>This semester, we will explore the topic <strong>God Meeting Man's Need in the Gospel of John.</strong></p><br/>
+          <p><strong>Monday</strong>: 8-9pm – LIVI</p>
         </div>
       </div>
 
       <div class="col-md-4 activity">
         <span class="activities-icons cyan-bg flaticon-road24"></span>
         <div class="activity-content">
-          <h3>College Retreat</h3>
-          <p>Twice a year, students from the Tri-state Area to come together for a weekend and spend time with the Lord as well as other Christians. Students will hear messages to help them dive into the Word,  grow closer to the Lord, and cultivate deeper relationships with other students.</p>
+          <h3>College Retreats</h3>
+          <p>Twice a year, students from the Tri-state Area to come together for a weekend and spend time with the Lord as well as other Christians. Students will hear messages to help them dive into the Word, grow closer to the Lord, and cultivate deeper relationships with other students.</p>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 activity">
-        <h4>Travel Waivers</h4>
-        <p>Rutgers requires students to submit travel waivers [<a href="https://slwordpress.rutgers.edu/organizations/wp-content/uploads/sites/74/2015/02/travel-waiver.doc" target="_blank">doc</a>, <a href="/docs/travel-waiver.pdf" target="_blank">pdf</a>] for all off-campus retreats and trips. For more information, please visit the <a href="http://involvement.rutgers.edu/" target="_blank">Rutgers Student Involvement website</a>.</p>
       </div>
     </div>
   </div>
 
   <!-- CONTACT -->
-  <div id="contact" class="section red-bg">
+  <div class="section red-bg white-font">
     <h1 class="section-header">Get in Touch</h1>
     <h4 class="section-sub">Join us in pursuing Christ together!</h4>
     <div class="row">
       <div class="col-md-6">
         <p>Feel free to contact us with any questions that you may have. Thank you for reaching out!</p>
         <ul id="contact-methods" class="list-unstyled">
-          <li><span class="contact-icons flaticon-pin71"></span>Livingston Student Center - 84 Joyce Kilmer Avenue Piscataway, NJ 08854</li>
-          <li><span class="contact-icons flaticon-phone8"></span><a class="a-alt" href="tel:7326483764">(732) 648&ndash;3764</a></li>
-          <li><span class="contact-icons flaticon-email122"></span><a class="a-alt" href="mailto:ruchristiansoncampus@gmail.com" target="_blank">ruchristiansoncampus@gmail.com</a></li>
+          <li><span class="icons flaticon-pin71"></span>Livingston Student Center - 84 Joyce Kilmer Avenue Piscataway, NJ 08854</li>
+          <li><span class="icons flaticon-phone8"></span><a class="a-alt" href="tel:7326483764">(732) 907&ndash;0463</a></li>
+          <li><span class="icons flaticon-email122"></span><a class="a-alt" href="mailto:ruchristiansoncampus@gmail.com" target="_blank">ruchristiansoncampus@gmail.com</a></li>
         </ul>
       </div>
       <div class="col-md-6">
-        <iframe id="map" src="https://www.google.com/maps/embed/v1/place?q=84%20Joyce%20Kilmer%20Avenue%20Piscataway%2C%20NJ%2008854&key=AIzaSyD0PlfIGBO3mEZISYOQde_hh0SUKaXWZXM"></iframe>
+        <iframe class="map" src="https://www.google.com/maps/embed/v1/place?q=84%20Joyce%20Kilmer%20Avenue%20Piscataway%2C%20NJ%2008854&key=AIzaSyD0PlfIGBO3mEZISYOQde_hh0SUKaXWZXM"></iframe>
       </div>
     </div>
   </div>

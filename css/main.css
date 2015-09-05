@@ -68,6 +68,19 @@ small {
   font-size: 1em;
 }
 
+.icons {
+  border: 2px solid #000;
+  border-radius: 100%;
+  color: #000;
+  display: inline-block;
+  height: 25px;
+  margin-right: 10px;
+  position: relative;
+  text-align: center;
+  top: 4px;
+  width: 25px;
+}
+
 /*****************************
 SECTIONS
 ******************************/
@@ -96,6 +109,7 @@ SECTIONS
   margin-bottom: 50px;
 }
 
+.bold,
 strong {
   font-weight: 400;
 }
@@ -103,29 +117,48 @@ strong {
 /*****************************
 COLOR SCHEME
 ******************************/
-
-.red-font {
-  color: #d21034;
+.red-bg {
+  background-color: #d21034 !important;
 }
 
-.red-bg {
-  background-color: #d21034;
+.red-font {
+  color: #d21034 !important;
 }
 
 .orange-bg {
-  background-color: #f09609;
+  background-color: #f09609 !important;
+}
+
+.orange-font {
+  color: #f09609 !important;
 }
 
 .green-bg {
-  background-color: #339933;
+  background-color: #339933 !important;
+}
+
+.green-font {
+  color: #339933 !important;
 }
 
 .blue-bg {
-  background-color: #1ba1e2;
+  background-color: #1ba1e2 !important;
+}
+
+.blue-font {
+  color: #1ba1e2 !important;
 }
 
 .cyan-bg {
-  background-color: #00aba9;
+  background-color: #00aba9 !important;
+}
+
+.cyan-font {
+  color: #00aba9 !important;
+}
+
+.white-font {
+  color: #fff !important;
 }
 
 /*****************************
@@ -171,30 +204,112 @@ NAVBAR
 }
 
 /*****************************
+CAROUSEL
+******************************/
+.carousel-center {
+  margin: 0 auto;
+  height: 450px;
+}
+
+.carousel-inner .item div {
+  display: block;
+  height: 450px;
+  text-align: center;
+}
+
+#carousel-gfs {
+  background: #51dbb1 url('/img/carousel/gods-full-salvation.png') no-repeat center center;
+  background-size: contain;
+}
+
+#carousel-hc {
+  background: #86b1d5 url('/img/carousel/harvey-cedars.png') no-repeat center center;
+  background-size: contain;
+}
+
+#carousel-fc {
+  display: block;
+  background: #f09609 url('/img/carousel/fc-bg.png');
+  height: 450px;
+  position: relative;
+  text-align: center;
+  padding: 90px 0 0;
+  margin: 0;
+  width: 100%;
+}
+
+#carousel-fc span {
+  color: #f09609;
+  background-color: #fff;
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 100%;
+  width: 50%;
+}
+
+#carousel-fc h2 {
+  color: #fff;
+  font-size: 4em;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.freshmen-connect-btn {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  display: block;
+  font-size: 1.25em;
+  letter-spacing: 3px;
+  margin: 25px auto;
+  width: 200px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+
+.freshmen-connect-btn:hover {
+  background-color: rgba(240,112,9,.6);
+  border: 2px solid #fff;
+  color: #fff;
+  -webkit-animation-duration: .7s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: bounce;
+  animation-duration: .7s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+}
+
+/*****************************
 JUMBOTRON
 ******************************/
 
 .jumbotron {
-  background: url('../img/group.jpg');
-  background-color: #fff;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   color: #fff;
+  display: block;
   height: 400px;
   margin-bottom: 0;
   padding: 0;
   text-align: center;
 }
 
-.tint-wrapper {
+.jumbo-wrapper {
   height: 400px;
-  background-color: rgba(0, 0, 0, .45);
   padding: 30px 0;
 }
 
-#welcome div {
-  display: block;
+.tint-wrapper {
+  background-color: rgba(0, 0, 0, .45);
+}
+
+.cursive {
+  font-family: 'Waiting for the Sunrise', cursive;
 }
 
 #welcome h1 {
@@ -333,32 +448,52 @@ TESTIMONIES
 CONTACT
 ******************************/
 
-#contact {
-  color: #fff;
-}
-
 #contact-methods {
   line-height: 2em;
 }
 
-.contact-icons {
-  border: 2px solid #fff;
-  border-radius: 100%;
-  color: #fff;
-  display: inline-block;
-  height: 25px;
-  margin-right: 10px;
-  position: relative;
-  text-align: center;
-  top: 4px;
-  width: 25px;
+#contact-methods li {
+  margin-bottom: 10px;
 }
 
-#map {
+#contact-methods .icons {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.map {
   width: 100%;
   height: 400px;
   border: none;
 }
+
+/*****************************
+FRESHMEN CONNECT
+******************************/
+.fc-bg {
+  background-color: #f09609;
+  background-image: url('/img/carousel/fc-bg.png');
+}
+
+.fc-accent {
+  background-color: #fff;
+  color: #f09609;
+  letter-spacing: 5px;
+  padding: 5px 10px;
+}
+
+#register-info {
+  line-height: 2em;
+}
+
+#register-info li {
+  margin-bottom: 10px;
+}
+
+.icons.glyphicon {
+  padding-top: 3px;
+}
+
 
 /*****************************
 FOOTER
@@ -452,28 +587,28 @@ ANIMATION KEYFRAMES
 
 /* bounce animation */
 @keyframes bounce {
-  from {
+  0%, 100% {
     -webkit-transform: translate(0px, 0px);
     -ms-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
   }
-  to {
-    -webkit-transform: translate(0px, -10px);
-    -ms-transform: translate(0px, -10px);
-    transform: translate(0px, -10px);
+  50% {
+    -webkit-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
   }
 }
 
 @-webkit-keyframes bounce {
-  from {
+  0%, 100% {
     -webkit-transform: translate(0px, 0px);
     -ms-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
   }
-  to {
-    -webkit-transform: translate(0px, -10px);
-    -ms-transform: translate(0px, -10px);
-    transform: translate(0px, -10px);
+  50% {
+    -webkit-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
   }
 }
 

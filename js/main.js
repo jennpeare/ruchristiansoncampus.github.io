@@ -5,13 +5,17 @@ $(function() {
     var thisPath = this.pathname.replace(/^\//,'');
     if (currentPath == thisPath && location.hostname == this.hostname) {
       var target = $(this.hash);
-      console.log(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top - 80
-        }, 1000);
-        return false;
+      if (this.hash === '#index-carousel') {
+        return;
+      } else {
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        console.log(this.hash);
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top - 80
+          }, 1000);
+          return false;
+        }
       }
     }
   });
