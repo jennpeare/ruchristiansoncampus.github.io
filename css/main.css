@@ -223,7 +223,12 @@ CAROUSEL
 }
 
 #carousel-hc {
-  background: #86b1d5 url('/img/carousel/harvey-cedars.png') no-repeat center center;
+  background: #33557e url('/img/carousel/harvey-cedars.png') no-repeat center center;
+  background-size: contain;
+}
+
+#carousel-satb {
+  background: #000 url('/img/carousel/satb-1.png') no-repeat center center;
   background-size: contain;
 }
 
