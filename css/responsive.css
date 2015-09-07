@@ -10,7 +10,6 @@
   /*****************************
   MEDIA
   ******************************/
-
   .media-wrapper {
     padding: 0;
   }
@@ -38,29 +37,39 @@
   }
 
   /*****************************
-  ACTIVITIES
+  THREE COLUMNS
   ******************************/
+  .three-columns .col-md-4 {
+    margin-bottom: 25px;
+  }
 
-  #activities h3 {
+  .three-columns-content {
+    display: table-cell;
+    padding-left: 25px;
+  }
+
+  .three-columns-content h3 {
     text-align: left;
     margin-top: 0;
   }
 
-  .activity-content {
-    display: table-cell;
-    vertical-align: top;
-    padding-left: 25px;
+  .three-columns-content p {
+    margin-bottom: 0;
   }
 
-  .activities-icons {
+  .three-columns-content p.small {
+    text-align: left;
+    margin: 0 0 10px 25px;
+  }
+
+  .three-columns-icon {
     display: table-cell;
-    vertical-align: top;
+    vertical-align: middle;
   }
 
   /*****************************
   WHO WE ARE
   ******************************/
-
   #about-us img {
     margin-bottom: 20px;
   }
@@ -71,7 +80,6 @@
   /*****************************
   GENERAL
   ******************************/
-
   body {
     padding-top: 50px;
     font-size: 13px;
@@ -80,7 +88,6 @@
   /*****************************
   SECTIONS
   ******************************/
-
   .section {
     padding: 35px;
     margin: 0;
@@ -99,7 +106,6 @@
   /*****************************
   NAVBAR
   ******************************/
-
   .navbar-brand {
     height: 50px;
     padding: 5px;
@@ -157,7 +163,6 @@
   #down {
     font-size: 2.5em;
   }
-
 }
 
 @media screen and (max-width: 567px) {
@@ -184,23 +189,39 @@
   }
 
   /*****************************
-  ACTIVITIES
+  THREE COLUMNS
   ******************************/
+  .three-columns-content {
+    display: table-cell;
+  }
 
-  .activities-icons {
+  .three-columns-icon {
+    padding-bottom: 0;
     width: 10px;
   }
 
-  .flaticon-house4:before,
-  .flaticon-book13:before,
-  .flaticon-road24:before {
+  .three-columns-icon h1 {
     display: none;
+  }
+
+  /*****************************
+  ACTIVITIES
+  ******************************/
+  #home-gathering {
+    background-color: #f09609;
+  }
+
+  #bible-studies {
+    background-color: #339933;
+  }
+
+  #college-retreats {
+    background-color: #00aba9;
   }
 
   /*****************************
   TESTIMONIES
   ******************************/
-
   .testimony-pic {
     display: table-row;
   }
@@ -217,4 +238,18 @@
     text-align: center;
   }
 
+  /*****************************
+  FRESHMEN-CONNECT
+  ******************************/
+  #faith {
+    background-color: #d21034;
+  }
+
+  #pursue {
+    background-color: #00aba9;
+  }
+
+  #purpose {
+    background-color: #f09609;
+  }
 }

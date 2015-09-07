@@ -161,10 +161,34 @@ COLOR SCHEME
   color: #fff !important;
 }
 
+
+/*****************************
+THREE COLUMNS
+******************************/
+.three-columns-icon {
+  display: block;
+  text-align: center;
+}
+
+.three-columns-icon h1 {
+  margin-top: 0;
+}
+
+.three-columns-content {
+  display: block;
+}
+
+.three-columns-content h3 {
+  text-align: center;
+}
+
+.three-columns-content p.small {
+  font-style: italic;
+}
+
 /*****************************
 NAVBAR
 ******************************/
-
 .navbar {
   border: 0;
   margin-bottom: 0;
@@ -294,7 +318,6 @@ CAROUSEL
 /*****************************
 JUMBOTRON
 ******************************/
-
 .jumbotron {
   color: #fff;
   display: block;
@@ -354,38 +377,8 @@ JUMBOTRON
 }
 
 /*****************************
-ACTIVITIES
-******************************/
-
-#activities h3 {
-  text-align: center;
-}
-
-#activities p {
-  margin-bottom: 0;
-}
-
-.activity {
-  margin-bottom: 25px;
-}
-
-.activity-content {
-  display: block;
-}
-
-.activities-icons {
-  color: #fff;
-  display: block;
-  height: 100px;
-  margin: 0 auto;
-  text-align: center;
-  width: 100px;
-}
-
-/*****************************
 MEDIA
 ******************************/
-
 #media {
   text-align: center;
 }
@@ -409,7 +402,6 @@ LIFE STUDY
 /*****************************
 WHO WE ARE
 ******************************/
-
 #about-us h2 {
   margin-top: 0;
 }
@@ -423,7 +415,6 @@ WHO WE ARE
 /*****************************
 TESTIMONIES
 ******************************/
-
 .testimony-block {
   display: table;
   margin-bottom: 40px;
@@ -452,7 +443,6 @@ TESTIMONIES
 /*****************************
 CONTACT
 ******************************/
-
 #contact-methods {
   line-height: 2em;
 }
@@ -487,7 +477,7 @@ FRESHMEN CONNECT
   padding: 0 10px;
 }
 
-.fc-padding {
+.date-padding {
   padding: 5px 10px;
 }
 
