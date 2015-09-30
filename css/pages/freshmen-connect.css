@@ -1,0 +1,40 @@
+/*****************************
+FRESHMEN CONNECT
+******************************/
+.fc-bg {
+  background-color: #f09609;
+  background-image: url('/img/carousel/fc-bg.png');
+}
+
+.fc-accent {
+  background-color: #fff;
+  color: #f09609;
+  letter-spacing: 5px;
+  padding: 0 10px;
+}
+
+.date-padding {
+  padding: 5px 10px;
+}
+
+.fc-btn:hover {
+  background-color: rgba(240,112,9,.6);
+}
+
+#register-info {
+  line-height: 2em;
+}
+
+#register-info li {
+  margin-bottom: 10px;
+}
+
+.icons.glyphicon {
+  padding-top: 3px;
+}
+
+.form {
+  width: 100%;
+  height: 800px;
+  border: none;
+}

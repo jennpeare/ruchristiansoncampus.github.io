@@ -1,0 +1,12 @@
+/*****************************
+WHO WE ARE
+******************************/
+#about-us h2 {
+  margin-top: 0;
+}
+
+.faith-point {
+  padding-left: 10px;
+  border-left: 5px solid rgba(210, 16, 52, 0.15);
+  margin-bottom: 25px;
+}

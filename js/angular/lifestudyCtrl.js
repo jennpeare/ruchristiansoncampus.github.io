@@ -1,14 +1,5 @@
-(function () {
-  var app = angular.module('rucoc', [], function($interpolateProvider) {
-    $interpolateProvider.startSymbol('[[');
-    $interpolateProvider.endSymbol(']]');
-  });
-
-  app.controller('LifeStudyController', function() {
-    this.exodus = exodusList;
-  });
-
-  var exodusList = [
+app.controller('LifeStudyController', function() {
+  this.exodus = [
     {
       num: 1,
       title: 'An Introductory Word',
@@ -1120,4 +1111,4 @@
       text: 'http://www.rucoc.com/LifeStudy/Eng/2/185/185.pdf'
     }
   ];
-})();
+});

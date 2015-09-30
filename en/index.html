@@ -8,20 +8,24 @@ title: Home
   <ol class="carousel-indicators">
     <li data-target="#index-carousel" data-slide-to="0" class="active"></li>
     <li data-target="#index-carousel" data-slide-to="1"></li>
-    <li data-target="#index-carousel" data-slide-to="2"></li>
-    <li data-target="#index-carousel" data-slide-to="3"></li>
+    <!-- <li data-target="#index-carousel" data-slide-to="2"></li> -->
+    <!-- <li data-target="#index-carousel" data-slide-to="3"></li> -->
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
+      <div id="carousel-hc">
+      <a type="button" class="carousel-event-btn retreat-btn-alt btn btn-default btn-lg" href="retreat">MORE INFORMATION</a>
+      </div>
+    </div>
+    <!-- <div class="item active">
       <div class="container" id="carousel-fc">
         <h1><span>FRESHMEN</span></h1>
         <h2>Connect</h2>
-        <a type="button" class="freshmen-connect-btn btn btn-default btn-lg" href="freshmen-connect">MORE INFORMATION</a>
+        <a type="button" class="carousel-event-btn fc-btn btn btn-default btn-lg" href="freshmen-connect">MORE INFORMATION</a>
       </div>
-    </div>
+    </div> -->
     <div class="item"><div id="carousel-gfs"></div></div>
-    <div class="item"><div id="carousel-satb"></div></div>
-    <div class="item"><div id="carousel-hc"></div></div>
+    <!-- <div class="item"><div id="carousel-satb"></div></div> -->
   </div>
   <a class="left carousel-control" href="#index-carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -56,7 +60,7 @@ title: Home
         </div>
         <div class="three-columns-content">
           <h3>Dorm Bible Studies</h3>
-          <p>This semester, we will explore the topic <strong>God Meeting Man's Need in the Gospel of John.</strong></p><br/>
+          <p>This semester, we will explore the topic <strong>God as Life to meet Man's Need in the Gospel of John</strong>.</p><br/>
           <p><strong>Monday</strong>: 8-9pm &mdash; Livingston Campus</p>
         </div>
       </div>
@@ -71,6 +75,42 @@ title: Home
         </div>
       </div>
     </div>
+
+    <hr>
+
+    <!-- UPCOMING EVENTS -->
+    <div class="row" ng-controller="EventsController as events">
+      <div class="col-md-8">
+        <h2>Upcoming Events</h2>
+        <ul class="events-list" id="upcoming-events">
+          <li class="row event-item" ng-repeat="event in events.upcomingEvents">
+            <div class="col-xs-2 col-md-1 event-date vcenter">
+              <h3 class="date">[[ event.day ]]</h3><span class="month">[[ event.month ]]</span>
+            </div><!--
+            --><div class="col-xs-7 col-md-9 event-info vcenter">
+              <h3>[[ event.name ]]</h3>[[ event.details ]]
+            </div><!--
+            --><div class="col-xs-3 col-md-1 event-details vcenter">
+              <a ng-href="[[ event.link ]]" class="btn btn-default btn-sm" ng-class="event.disable ? 'disabled' : ''">Details</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Weekly Events</h2>
+          <ul class="events-list">
+            <li class="row event-item" ng-repeat="event in events.weeklyEvents">
+              <div class="col-xs-2 col-md-2 event-date vcenter">
+                <h5 class="date">[[ event.day | uppercase ]]</h5>
+              </div><!--
+              --><div class="col-xs-10 col-md-10 event-info vcenter">
+                <h3>[[ event.name ]]</h3>
+                [[ event.details ]]
+              </div>
+            </li>
+          </ul>
+      </div>
+    </div><!--upcoming events-->
   </div>
 
   <!-- CONTACT -->
@@ -87,7 +127,7 @@ title: Home
         </ul>
       </div>
       <div class="col-md-6">
-        <iframe class="map" src="https://www.google.com/maps/embed/v1/place?q=84%20Joyce%20Kilmer%20Avenue%20Piscataway%2C%20NJ%2008854&key=AIzaSyD0PlfIGBO3mEZISYOQde_hh0SUKaXWZXM"></iframe>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12131.474280657583!2d-74.436705!3d40.522396!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c79659c02a63%3A0xb48e204636533355!2s84+Joyce+Kilmer+Ave%2C+Piscataway+Township%2C+NJ+08854!5e0!3m2!1sen!2sus!4v1442696136213"></iframe>
       </div>
     </div>
   </div>

@@ -1,0 +1,82 @@
+.push {
+  background: transparent;
+  height: 120px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  display: table;
+  margin: 0;
+  height: 120px;
+  padding: 15px 53px;
+  width: 100%;
+}
+
+#footer-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.social-icons {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  border-bottom: none;
+}
+
+.social {
+  border: 2px solid #5f6a72;
+  background-color: #000;
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  margin: 0 5px;
+  -o-transition: .2s ease;
+  -ms-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  width: 40px;
+}
+
+.social:focus,
+.social:hover {
+  -webkit-animation-duration: .7s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: wiggle;
+  animation-duration: .7s;
+  animation-fill-mode: both;
+  animation-name: wiggle;
+}
+
+/* facebook */
+.flaticon-facebook55:focus,
+.flaticon-facebook55:hover {
+  border-color: #3b5999;
+  background-color: #3b5999;
+}
+
+/* instagram */
+.flaticon-logo4:focus,
+.flaticon-logo4:hover {
+  border-color: #bb0000;
+  background-color: #bb0000;
+}
+
+/* youtube */
+.flaticon-30:focus,
+.flaticon-30:hover {
+  border-color: #517fa4;
+  background-color: #517fa4;
+}
+
+footer p {
+  font-size: .85em;
+  margin: 0;
+  text-align: center;
+}

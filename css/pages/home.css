@@ -1,0 +1,165 @@
+/*****************************
+CAROUSEL
+******************************/
+.carousel-center {
+  margin: 0 auto;
+  height: 450px;
+}
+
+.carousel-inner .item div {
+  display: block;
+  height: 450px;
+  text-align: center;
+}
+
+#carousel-gfs {
+  background: #51dbb1 url('/img/carousel/gods-full-salvation.png') no-repeat center center;
+  background-size: contain;
+}
+
+#carousel-hc {
+  background: #33557e url('/img/carousel/harvey-cedars.png') no-repeat center center;
+  background-size: contain;
+  position: relative;
+}
+
+#carousel-hc .btn {
+  display: block;
+  position: absolute;
+  left: 39%;
+  top: 65%;
+}
+
+#carousel-satb {
+  background: #000 url('/img/carousel/satb-1.png') no-repeat center center;
+  background-size: contain;
+}
+
+#carousel-fc {
+  display: block;
+  background: #f09609 url('/img/carousel/fc-bg.png');
+  height: 450px;
+  position: relative;
+  text-align: center;
+  padding: 90px 0 0;
+  margin: 0;
+  width: 100%;
+}
+
+#carousel-fc span {
+  color: #f09609;
+  background-color: #fff;
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 100%;
+  width: 50%;
+}
+
+#carousel-fc h2 {
+  color: #fff;
+  font-size: 4em;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.carousel-event-btn {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  display: block;
+  font-size: 1.25em;
+  letter-spacing: 3px;
+  margin: 25px auto;
+  width: 275px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.carousel-event-btn:hover {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+/*****************************
+EVENTS
+******************************/
+.events-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.event-item {
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.event-item:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.event-date {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+}
+
+.event-date .date {
+  display: block;
+  margin: 0 0 5px 0;
+}
+
+.event-date .month {
+  display: block;
+  text-transform: uppercase;
+}
+
+.event-info {
+  display: inline-block;
+  padding: 0 5px 0 5px;
+}
+
+.event-info h3 {
+  color: #d21034;
+  margin: 0 0 5px 0;
+}
+
+.event-details {
+  display: inline-block;
+  text-align: center;
+}
+
+.event-details .btn {
+  border: 1px solid #d21034;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.event-details .btn:hover {
+  background-color: #d21034;
+  color: #fff;
+}
+
+/*****************************
+CONTACT
+******************************/
+#contact-methods {
+  line-height: 2em;
+}
+
+#contact-methods li {
+  margin-bottom: 10px;
+}
+
+#contact-methods .icons {
+  border: 2px solid #fff;
+  color: #fff;
+}

@@ -1,7 +1,6 @@
 /*****************************
 GENERAL
 ******************************/
-
 html {
   height: 100%;
 }
@@ -17,9 +16,9 @@ body {
 
 #content-wrapper {
   min-height: 100%;
-	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
-	height: 100%;
-	margin: 0 auto -120px; /* the bottom margin is the negative value of the footer's height */
+  height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto -120px; /* the bottom margin is the negative value of the footer's height */
 }
 
 p {
@@ -68,6 +67,11 @@ small {
   font-size: 1em;
 }
 
+.bold,
+strong {
+  font-weight: 400;
+}
+
 .icons {
   border: 2px solid #000;
   border-radius: 100%;
@@ -81,10 +85,21 @@ small {
   width: 25px;
 }
 
+.map {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
 /*****************************
 SECTIONS
 ******************************/
-
 .wrapper {
   padding: 0;
   width: 100%;
@@ -107,11 +122,6 @@ SECTIONS
   display: block;
   text-align: center;
   margin-bottom: 50px;
-}
-
-.bold,
-strong {
-  font-weight: 400;
 }
 
 /*****************************
@@ -161,7 +171,6 @@ COLOR SCHEME
   color: #fff !important;
 }
 
-
 /*****************************
 THREE COLUMNS
 ******************************/
@@ -184,472 +193,4 @@ THREE COLUMNS
 
 .three-columns-content p.small {
   font-style: italic;
-}
-
-/*****************************
-NAVBAR
-******************************/
-.navbar {
-  border: 0;
-  margin-bottom: 0;
-}
-
-.navbar a {
-  border-bottom: none;
-}
-
-.navbar-brand {
-  height: 80px;
-  padding: 10px;
-}
-
-.navbar-brand img {
-  display: inline-block;
-  width: 120px;
-  margin-top: 3px;
-}
-
-.navbar-nav li a {
-  color: #fff !important;
-  font-size: 1.25em;
-  line-height: 50px;
-  -o-transition: .1s ease-in-out;
-  -ms-transition: .1s ease-in-out;
-  -moz-transition: .1s ease-in-out;
-  -webkit-transition: .1s ease-in-out;
-  transition: .1s ease-in-out;
-}
-
-.navbar-nav li a:focus,
-.navbar-nav li a:hover,
-.current {
-  box-shadow: inset 0px 5px 0px 0px;
-  color: #fff !important;
-}
-
-/*****************************
-CAROUSEL
-******************************/
-.carousel-center {
-  margin: 0 auto;
-  height: 450px;
-}
-
-.carousel-inner .item div {
-  display: block;
-  height: 450px;
-  text-align: center;
-}
-
-#carousel-gfs {
-  background: #51dbb1 url('/img/carousel/gods-full-salvation.png') no-repeat center center;
-  background-size: contain;
-}
-
-#carousel-hc {
-  background: #33557e url('/img/carousel/harvey-cedars.png') no-repeat center center;
-  background-size: contain;
-}
-
-#carousel-satb {
-  background: #000 url('/img/carousel/satb-1.png') no-repeat center center;
-  background-size: contain;
-}
-
-#carousel-fc {
-  display: block;
-  background: #f09609 url('/img/carousel/fc-bg.png');
-  height: 450px;
-  position: relative;
-  text-align: center;
-  padding: 90px 0 0;
-  margin: 0;
-  width: 100%;
-}
-
-#carousel-fc span {
-  color: #f09609;
-  background-color: #fff;
-  font-size: 1.25em;
-  font-weight: 400;
-  letter-spacing: 5px;
-  margin: 0 auto;
-  padding: 10px;
-  max-width: 100%;
-  width: 50%;
-}
-
-#carousel-fc h2 {
-  color: #fff;
-  font-size: 4em;
-  letter-spacing: 5px;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-.freshmen-connect-btn {
-  border: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  display: block;
-  font-size: 1.25em;
-  letter-spacing: 3px;
-  margin: 25px auto;
-  width: 275px;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-}
-
-.freshmen-connect-btn:hover {
-  background-color: rgba(240,112,9,.6);
-  border: 2px solid #fff;
-  color: #fff;
-  /*-webkit-animation-duration: .7s;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-name: bounce;
-  animation-duration: .7s;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-name: bounce;*/
-}
-
-/*****************************
-JUMBOTRON
-******************************/
-.jumbotron {
-  color: #fff;
-  display: block;
-  height: 400px;
-  margin-bottom: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.jumbo-wrapper {
-  height: 400px;
-  padding: 30px 0;
-}
-
-.tint-wrapper {
-  background-color: rgba(0, 0, 0, .45);
-}
-
-.cursive {
-  font-family: 'Waiting for the Sunrise', cursive;
-}
-
-#welcome h1 {
-  font-size: 5em;
-  text-shadow: 1px 1px 10px #000;
-  margin-bottom: 40px;
-  font-weight: 400;
-}
-
-#welcome p {
-  text-shadow: 1px 1px 20px #000;
-  font-family: 'Waiting for the Sunrise', cursive;
-  font-size: 1.75em;
-  margin-bottom: 40px;
-}
-
-#down {
-  color: #fff;
-  font-size: 3.5em;
-  position: relative;
-}
-
-#down:focus,
-#down:hover {
-  cursor: pointer;
-  text-decoration: none;
-  -webkit-animation-delay: 0s;
-  -webkit-animation-direction: alternate;
-  -webkit-animation-duration: .3s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-name: bounce;
-  animation-delay: 0s;
-  animation-direction: alternate;
-  animation-duration: .3s;
-  animation-iteration-count: infinite;
-  animation-name: bounce;
-}
-
-/*****************************
-MEDIA
-******************************/
-#media {
-  text-align: center;
-}
-
-.media-wrapper {
-  padding: 0 45px;
-}
-
-/*****************************
-LIFE STUDY
-******************************/
-#ls-exodus a {
-  border-bottom: none;
-}
-
-#ls-exodus table {
-  width: 70%;
-  margin: 0 auto;
-}
-
-/*****************************
-WHO WE ARE
-******************************/
-#about-us h2 {
-  margin-top: 0;
-}
-
-.faith-point {
-  padding-left: 10px;
-  border-left: 5px solid rgba(210, 16, 52, 0.15);
-  margin-bottom: 25px;
-}
-
-/*****************************
-TESTIMONIES
-******************************/
-.testimony-block {
-  display: table;
-  margin-bottom: 40px;
-}
-
-.testimony-pic {
-  display: table-cell;
-  text-align: center;
-}
-
-.testimony-pic img {
-  border-radius: 100%;
-  width: 120px;
-  margin: 0 20px 0 0;
-}
-
-.testimony-content {
-  display: table-cell;
-  vertical-align: top;
-}
-
-.testimony-content h4 {
-  margin-top: 0;
-}
-
-/*****************************
-CONTACT
-******************************/
-#contact-methods {
-  line-height: 2em;
-}
-
-#contact-methods li {
-  margin-bottom: 10px;
-}
-
-#contact-methods .icons {
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-.map {
-  width: 100%;
-  height: 400px;
-  border: none;
-}
-
-/*****************************
-FRESHMEN CONNECT
-******************************/
-.fc-bg {
-  background-color: #f09609;
-  background-image: url('/img/carousel/fc-bg.png');
-}
-
-.fc-accent {
-  background-color: #fff;
-  color: #f09609;
-  letter-spacing: 5px;
-  padding: 0 10px;
-}
-
-.date-padding {
-  padding: 5px 10px;
-}
-
-#register-info {
-  line-height: 2em;
-}
-
-#register-info li {
-  margin-bottom: 10px;
-}
-
-.icons.glyphicon {
-  padding-top: 3px;
-}
-
-.form {
-  width: 100%;
-  height: 800px;
-  border: none;
-}
-
-/*****************************
-FOOTER
-******************************/
-.push {
-  background: transparent;
-  height: 120px;
-}
-
-footer {
-  background-color: #000;
-  color: #fff;
-  display: table;
-  margin: 0;
-  height: 120px;
-  padding: 15px 53px;
-  width: 100%;
-}
-
-#footer-content {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.social-icons {
-  font-size: 1.5em;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.social-icons a {
-  border-bottom: none;
-}
-
-.social {
-  border: 2px solid #5f6a72;
-  background-color: #000;
-  border-radius: 100%;
-  color: #fff;
-  display: inline-block;
-  height: 40px;
-  margin: 0 5px;
-  -o-transition: .2s ease;
-  -ms-transition: .2s ease;
-  -moz-transition: .2s ease;
-  -webkit-transition: .2s ease;
-  transition: .2s ease;
-  width: 40px;
-}
-
-.social:focus,
-.social:hover {
-  -webkit-animation-duration: .7s;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation-name: wiggle;
-  animation-duration: .7s;
-  animation-fill-mode: both;
-  animation-name: wiggle;
-}
-
-/* facebook */
-.flaticon-facebook55:focus,
-.flaticon-facebook55:hover {
-  border-color: #3b5999;
-  background-color: #3b5999;
-}
-
-/* instagram */
-.flaticon-logo4:focus,
-.flaticon-logo4:hover {
-  border-color: #bb0000;
-  background-color: #bb0000;
-}
-
-/* youtube */
-.flaticon-30:focus,
-.flaticon-30:hover {
-  border-color: #517fa4;
-  background-color: #517fa4;
-}
-
-footer p {
-  font-size: .85em;
-  margin: 0;
-  text-align: center;
-}
-
-/*****************************
-ANIMATION KEYFRAMES
-******************************/
-
-/* bounce animation */
-@keyframes bounce {
-  0%, 100% {
-    -webkit-transform: translate(0px, 0px);
-    -ms-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-  }
-  50% {
-    -webkit-transform: translate(0px, -5px);
-    -ms-transform: translate(0px, -5px);
-    transform: translate(0px, -5px);
-  }
-}
-
-@-webkit-keyframes bounce {
-  0%, 100% {
-    -webkit-transform: translate(0px, 0px);
-    -ms-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-  }
-  50% {
-    -webkit-transform: translate(0px, -5px);
-    -ms-transform: translate(0px, -5px);
-    transform: translate(0px, -5px);
-  }
-}
-
-
-/* wiggle animation */
-@keyframes wiggle {
-  0%,100% {
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
-    transform: rotate(0)
-  }
-  20%,60% {
-    -webkit-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg)
-  }
-  40%,80% {
-    -webkit-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    transform: rotate(5deg)
-  }
-}
-
-@-webkit-keyframes wiggle {
-  0%,100% {
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
-    transform: rotate(0)
-  }
-  20%,60% {
-    -webkit-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg)
-  }
-  40%,80% {
-    -webkit-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    transform: rotate(5deg)
-  }
 }

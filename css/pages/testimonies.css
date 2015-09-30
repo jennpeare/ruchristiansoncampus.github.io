@@ -1,0 +1,27 @@
+/*****************************
+TESTIMONIES
+******************************/
+.testimony-block {
+  display: table;
+  margin-bottom: 40px;
+}
+
+.testimony-pic {
+  display: table-cell;
+  text-align: center;
+}
+
+.testimony-pic img {
+  border-radius: 100%;
+  width: 120px;
+  margin: 0 20px 0 0;
+}
+
+.testimony-content {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.testimony-content h4 {
+  margin-top: 0;
+}
