@@ -13,15 +13,17 @@ CAROUSEL
 }
 
 #carousel-gfs {
-  background: #51dbb1 url('/img/carousel/gods-full-salvation.png') no-repeat center center;
+  background: #51dbb1 url('/img/carousel/welcome-week.png') no-repeat center center;
   background-size: contain;
 }
 
+/*
 #carousel-hc {
   background: #33557e url('/img/carousel/harvey-cedars.png') no-repeat center center;
   background-size: contain;
   position: relative;
 }
+*/
 
 #carousel-hc .btn {
   display: block;
