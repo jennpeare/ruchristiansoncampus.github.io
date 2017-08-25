@@ -122,12 +122,7 @@ SECTIONS
   display: block;
   text-align: center;
   margin-bottom: 50px;
-}
-.section-sub2 {
-  display: block;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 /*****************************
 COLOR SCHEME
