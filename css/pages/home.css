@@ -17,6 +17,11 @@ CAROUSEL
   background-size: contain;
 }
 
+#welcome_week_pic {
+  background: #33557e url('/img/carousel/1.png') no-repeat center center;
+  background-size: contain;
+  position: relative;
+}
 
 #carousel-hc {
   background: #33557e url('/img/carousel/ministry_meeting.png') no-repeat center center;
