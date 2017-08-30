@@ -21,6 +21,13 @@ body {
   margin: 0 auto -120px; /* the bottom margin is the negative value of the footer's height */
 }
 
+#subtitle1 {
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
 p {
   font-size: 1.125em;
 }
