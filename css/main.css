@@ -24,8 +24,9 @@ body {
 #subtitle1 {
   display: block;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   margin-top: 40px;
+  font-size: 2em;
 }
 
 p {
