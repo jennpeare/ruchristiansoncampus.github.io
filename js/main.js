@@ -1,7 +1,7 @@
 $(function(){
   setTimeout(function(){
     $('#landing').fadeOut(1000,function() {
-      window.location.href = "/en";
+      window.location.href = "/en/";
     })
   },500);
 });

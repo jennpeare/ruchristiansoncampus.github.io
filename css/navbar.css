@@ -29,9 +29,9 @@
   transition: .1s ease-in-out;
 }
 
-.navbar-nav li a:focus,
 .navbar-nav li a:hover,
 .current {
   box-shadow: inset 0px 5px 0px 0px;
   color: #fff !important;
 }
+//.navbar-nav li a:focus,

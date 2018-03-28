@@ -39,9 +39,6 @@
   /*****************************
   THREE COLUMNS
   ******************************/
-  .three-columns .col-md-4 {
-    margin-bottom: 25px;
-  }
 
   .three-columns-content {
     display: table-cell;
@@ -50,7 +47,7 @@
 
   .three-columns-content h3 {
     text-align: left;
-    margin-top: 0;
+    margin-top: 20px;
   }
 
   .three-columns-content p {
@@ -197,7 +194,7 @@
 
   .three-columns-icon {
     padding-bottom: 0;
-    width: 10px;
+    width: 0px;
   }
 
   .three-columns-icon h1 {
