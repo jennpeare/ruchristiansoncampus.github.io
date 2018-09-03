@@ -1,0 +1,23 @@
+Configuration file: /Users/stevenyuan/work/ruchristiansoncampus.github.io/_config.yml
+            Source: /Users/stevenyuan/work/ruchristiansoncampus.github.io
+       Destination: /Users/stevenyuan/work/ruchristiansoncampus.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.136 seconds.
+ Auto-regeneration: enabled for '/Users/stevenyuan/work/ruchristiansoncampus.github.io'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2018-03-28 18:12:16
+                    css/responsive.css
+                    ...done in 0.031063 seconds.
+
+[2018-03-28 18:13:29] ERROR `/img/favicon.ico' not found.
+      Regenerating: 1 file(s) changed at 2018-03-28 22:45:34
+                    nohup.out
+                    ...done in 0.066027 seconds.
+
+      Regenerating: 2 file(s) changed at 2018-03-28 22:47:13
+                    nohup.out
+                    notes.txt
+                    ...done in 0.028778 seconds.
+
