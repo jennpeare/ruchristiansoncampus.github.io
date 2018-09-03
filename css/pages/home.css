@@ -26,6 +26,9 @@ CAROUSEL
 #main_img {
   //background: #33557e url('/img/carousel/springRetreat2018.png') no-repeat center center;
   background-size: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   position: relative;
 }
 
