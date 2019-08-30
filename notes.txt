@@ -1,2 +1,7 @@
-# Make changes to the navbar so that the section you are in will also reflect in the navbar instead of just hover
-# Make the mobile three-columns-icon appear with color bars in mobile mode instead of display: none or visibility: hidden
+# Use Upcoming Events Section with Angular
+
+# Use map for Bible Study/Home Meeting locations
+
+# Update Testimonies
+
+# Update Pictures
