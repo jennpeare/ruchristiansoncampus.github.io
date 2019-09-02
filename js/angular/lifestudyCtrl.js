@@ -1,4 +1,4 @@
-app.controller('LifeStudyController', function() {
+app.controller('LifeStudyController', function () {
   this.exodus = [
     {
       num: 1,

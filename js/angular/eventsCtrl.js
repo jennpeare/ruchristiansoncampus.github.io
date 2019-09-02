@@ -1,4 +1,4 @@
-app.controller('EventsController', function() {
+app.controller('EventsController', function () {
   this.upcomingEvents = [
     // {
     //   name: 'Freshmen Connect',
