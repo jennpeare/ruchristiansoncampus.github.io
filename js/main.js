@@ -1,3 +1,4 @@
+// Redirect to /en
 $(function(){
   setTimeout(function(){
     $('#landing').fadeOut(1000,function() {
@@ -34,4 +35,9 @@ $(function() {
       scrollTop: target.offset().top - 80
     }, 1000);
   });
+});
+
+// Dynamic Copyright Year
+$(function() {
+  $('.current-year').text(new Date().getFullYear());
 });
