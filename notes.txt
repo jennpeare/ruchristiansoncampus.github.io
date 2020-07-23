@@ -1,7 +1,1 @@
-# Use Upcoming Events Section with Angular
-
-# Use map for Bible Study/Home Meeting locations
-
 # Update Testimonies
-
-# Update Pictures
