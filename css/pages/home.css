@@ -23,7 +23,7 @@ CAROUSEL
   position: relative;
 }
 
-#main_img {
+.main_img {
   /* background: #33557e url('/img/join-us.png') no-repeat center center; */
   /* background-size: contain; */
   width: 100%;
